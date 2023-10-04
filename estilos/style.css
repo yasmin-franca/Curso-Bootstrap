@@ -4,7 +4,7 @@
     --cor-0: #444444;
     --cor-1: #353D41;
     --cor-2: #59c1de;
-    --cor-3: #;
+    --cor-3: #F9F9F9;
 
     --fonte-padrao: 'Roboto', 'sans-serif';
 }
@@ -106,5 +106,47 @@ img#logo {
 
 .carousel-indicators .active {
     background-color: var(--cor-2);
-    
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: var(--cor-3);
+}
+
+.main-title {
+    color: var(--cor-0);
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: var(--cor-0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: var(--cor-2);
+    margin-right: 15px;
 }
